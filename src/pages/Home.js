@@ -4,11 +4,11 @@ import Products from '../components/Products'
 const Home = () => {
   return (
     <div>
-       <h2 className='heading'>Welcome to redux toolkit</h2>
+      <h2 className='heading'>Welcome to redux toolkit</h2>
       <section>
         <h3>Products</h3>
-       <Products/>
-        </section>
+        <Products />
+      </section>
     </div>
   )
 }
